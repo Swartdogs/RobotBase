@@ -16,4 +16,12 @@ public final class Constants
         /** Replaying from a log file. */
         REPLAY
     }
+
+    public static final class ModuleConstants
+    {
+        public static final double kDriveEncoderRot2Meter       = 0;
+        public static final double kDriveEncoderRPM2MeterPerSec = 0;
+        public static final double kRotateEncoderRot2Rad        = 0;
+        public static final double kRotateEncoderRPM2RadPerSec  = 0;
+    }
 }
